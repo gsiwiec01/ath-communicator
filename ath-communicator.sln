@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ath-communicator", "ath-communicator\ath-communicator.csproj", "{2CA16DE3-D792-4F79-B255-8440608A6A05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
