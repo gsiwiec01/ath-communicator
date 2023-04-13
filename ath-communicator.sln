@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ath-communicator", "ath-communicator\ath-communicator.csproj", "{2CA16DE3-D792-4F79-B255-8440608A6A05}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "serverside", "serverside", "{F24710E1-708E-4CD1-A915-07E63D30A3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATH.API", "ATH.API\ATH.API.csproj", "{5C34366A-DBE5-4CE8-80C0-07841F275D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATH.DAL", "ATH.DAL\ATH.DAL.csproj", "{A4F7CEDF-7289-489F-9C24-B1BB0C829390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +12,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CA16DE3-D792-4F79-B255-8440608A6A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C34366A-DBE5-4CE8-80C0-07841F275D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C34366A-DBE5-4CE8-80C0-07841F275D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C34366A-DBE5-4CE8-80C0-07841F275D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C34366A-DBE5-4CE8-80C0-07841F275D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F7CEDF-7289-489F-9C24-B1BB0C829390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F7CEDF-7289-489F-9C24-B1BB0C829390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F7CEDF-7289-489F-9C24-B1BB0C829390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F7CEDF-7289-489F-9C24-B1BB0C829390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C34366A-DBE5-4CE8-80C0-07841F275D2A} = {F24710E1-708E-4CD1-A915-07E63D30A3EC}
+		{A4F7CEDF-7289-489F-9C24-B1BB0C829390} = {F24710E1-708E-4CD1-A915-07E63D30A3EC}
 	EndGlobalSection
 EndGlobal
