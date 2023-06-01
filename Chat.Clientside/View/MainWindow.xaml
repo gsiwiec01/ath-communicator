@@ -18,13 +18,17 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         
-        <DockPanel>
-            <TextBox Height="20" DockPanel.Dock="Top" />
-            <TextBox Height="20" DockPanel.Dock="Top" />
-            <Button Height="30" DockPanel.Dock="Top" Content="Połącz z serwerem" Command="{Binding ConnectToServerCommand}"></Button>
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
             
-            <ListView />
-        </DockPanel>
+                <TextBlock Text="Status połączenia:" Height="20" />
+                <Button Grid.Column="1" Height="20" Content="Rozłącz" />
+            </Grid>    
+        </StackPanel>
         
         <StackPanel Grid.Column="1" >
             <ListView Height="420"></ListView>

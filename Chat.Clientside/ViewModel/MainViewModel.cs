@@ -1,16 +1,10 @@
-﻿using Chat.Clientside.Core;
+﻿using System.Collections.ObjectModel;
+using Chat.Clientside.Core;
+using Chat.Clientside.Model;
 
 namespace Chat.Clientside.ViewModel;
 
 public class MainViewModel
 {
-    public RelayCommand ConnectToServerCommand { get; set; }
-
-    private Net _net;
-
-    public MainViewModel()
-    {
-        _net = new Net();
-        ConnectToServerCommand = new RelayCommand(x => _net.ConnectToServer());
-    }
+    public ObservableCollection<UserModel> UserModels { get; set; } = new();
 }
