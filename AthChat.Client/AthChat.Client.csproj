@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\AthChat.Shared\AthChat.Shared.csproj"/>
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="MahApps.Metro" Version="3.0.0-alpha0457" />
+        <PackageReference Include="MaterialDesignThemes.Wpf" Version="1.0.1" />
+        <PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.3" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.0-preview.7.23375.9" />
+        <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+        <PackageReference Include="System.Reactive.Linq" Version="6.0.1-preview.1"/>
+    </ItemGroup>
+</Project>
